@@ -1,0 +1,29 @@
+body{
+    background:	#CD5C5C;
+}
+
+nav ul{
+    list-style: none;
+    margin: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+}
+
+header{
+    color: 	#4B0082;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#FFFFF0;
+}

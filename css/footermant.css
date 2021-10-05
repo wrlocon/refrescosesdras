@@ -1,0 +1,118 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4e5761;
+    color: #ff7300;
+    padding: 20px;
+    border-bottom: 1px solid #ff6600;
+}
+
+footer section:first-child div.email-btn{
+    display: flex;
+}
+
+footer section:first-child input{
+    border: 2px solid #12343b;
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 3px 0px 0px 3px;
+}
+
+footer section:first-child button{
+    background-color: #12343b;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid #12343b;
+    outline: none;
+    border-radius: 0px 3px 3px 0px;
+
+}
+
+footer section h4{
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+
+footer section nav a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 10px 0px;
+    transition-property: color,transform;
+    transition-duration: 0.4s;
+}
+
+footer section nav a:hover{
+    transform: translateX(10px);
+    color: #ffbb00;
+}
+
+
+div.end{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1a3365;
+    color: #ffbb00;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+
+div.end a{
+    text-decoration: none;
+    color: white;
+}
+
+div.end a:hover{
+    color: #ffbb00;
+}
+
+div.end section div.social-btn a{
+    margin: 0px 5px;
+}
+
+div.end section div.social-btn a i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 8px;
+    width: 16px;
+    text-align: center;
+    transition-property: color,border,box-shadow;
+    transition-duration: 0.4s;
+}
+
+
+div.end section div.social-btn a i:hover{
+    border-color: #ffbb00;
+    color: #ffbb00;
+    box-shadow: 0px 0px 5px #ffbb00;
+}
+
+
+@media screen and (max-width:800px)
+{
+    footer{
+        flex-direction: column;
+    }
+    div.end{
+        flex-direction: column;
+    }
+    footer section{
+        border-bottom: 2px solid #12343b;
+        padding: 10px 0px;
+        margin-bottom: 20px;
+    }
+    div.end section{
+        margin-bottom: 20px;
+    }
+}  
